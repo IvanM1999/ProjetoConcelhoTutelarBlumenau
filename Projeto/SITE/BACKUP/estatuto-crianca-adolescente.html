@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatuto da Criança e do Adolescente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="banner-topo">Estatuto da Criança e do Adolescente</div>
+        <nav class="menu" style="justify-content: center;">
+            <div class="menu-burger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul style="align-items: flex-end;">
+                <li><a href="index.html" title="Início">🏠<span class="menu-label">Início</span></a></li>
+                <li><a href="sobre-CT.html" title="Sobre">👥<span class="menu-label">Sobre</span></a></li>
+                <li><a href="direitos.html" title="Direitos">📜<span class="menu-label">Direitos</span></a></li>
+                <li><a href="estatuto-crianca-adolescente.html" title="ECA">📖<span class="menu-label">ECA</span></a></li>
+                <li><a href="sipia-ct.html" title="Sipia-CT">💻<span class="menu-label">Sipia-CT</span></a></li>
+                <li><a href="faq.html" title="FAQ">❓<span class="menu-label">FAQ</span></a></li>
+                <li><a href="denuncias.html" title="Denúncias">🚨<span class="menu-label">Denúncias</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="introducao card">
+            <h1>O que é o Estatuto da Criança e do Adolescente (ECA)?</h1>
+            <p>O Estatuto da Criança e do Adolescente (ECA), instituído pela Lei nº 8.069 de 1990, é um marco legal no Brasil que assegura os direitos fundamentais das crianças e adolescentes. Ele estabelece diretrizes para garantir proteção integral e prioridade absoluta em todas as esferas da sociedade.</p>
+            <p>O ECA é uma referência essencial para a proteção dos direitos das crianças e adolescentes, abrangendo áreas como educação, saúde, convivência familiar e comunitária, e medidas de proteção em situações de risco.</p>
+        </section>
+        <section class="blog-container">
+            <div class="blog-card card">
+                <h3>O Papel do Conselho Tutelar</h3>
+                <p>O Conselho Tutelar é um órgão essencial na aplicação das medidas protetivas previstas no ECA. Ele atua diretamente em casos de violação de direitos, garantindo que crianças e adolescentes tenham acesso à proteção necessária.</p>
+                <a href="sobre-CT.html" class="blog-link">Leia mais</a>
+            </div>
+            <div class="blog-card card">
+                <h3>Direitos e Deveres das Crianças</h3>
+                <p>O ECA estabelece não apenas os direitos, mas também os deveres das crianças e adolescentes, promovendo uma convivência harmoniosa e respeitosa na sociedade.</p>
+                <a href="direitos.html" class="blog-link">Leia mais</a>
+            </div>
+            <div class="blog-card card">
+                <h3>Benefícios para Famílias</h3>
+                <p>Descubra os benefícios que o governo oferece para apoiar famílias em situação de vulnerabilidade, como o Bolsa Família e o Auxílio Creche.</p>
+                <a href="#beneficios" class="blog-link">Saiba mais</a>
+            </div>
+            <div class="blog-card card">
+                <h3>Parcerias com Órgãos Competentes</h3>
+                <p>Saiba como o ECA trabalha em conjunto com o Ministério Público, escolas, unidades de saúde e outros órgãos para garantir a proteção integral das crianças.</p>
+                <a href="#parcerias" class="blog-link">Descubra mais</a>
+            </div>
+        </section>
+    </main>
+    <div class="floating-button">
+        <button onclick="showInfo()" class="info-button">❓</button>
+        <button onclick="scrollToTop()" class="top-button">⬆️</button>
+    </div>
+    <footer>
+        <p>&copy; 2025 Destiny Services BR - Todos os direitos reservados</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu ul');
+            menu.classList.toggle('active');
+        }
+function showInfo() {
+    alert('Este site foi criado como parte do projeto de extensão da Uniasselvi pelos alunos Ivan, GP e William.');
+}
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

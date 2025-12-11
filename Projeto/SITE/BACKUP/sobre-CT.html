@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que é o Conselho Tutelar?</title>
+    <meta name="description"
+        content="Saiba o que é o Conselho Tutelar, sua importância na proteção dos direitos das crianças e adolescentes, e como ele atua em situações de risco.">
+    <meta name="keywords" content="Conselho Tutelar, ECA, direitos da criança, proteção infantil, negligência, denúncia">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+</head>
+
+<body>
+    <header>
+        <div class="banner-topo">Conselho Tutelar - Protegendo Direitos</div>
+        <nav class="menu" style="justify-content: center;">
+            <div class="menu-burger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul style="align-items: flex-end;">
+                <li><a href="index.html" title="Início">🏠<span class="menu-label">Início</span></a></li>
+                <li><a href="sobre-CT.html" title="Sobre">👥<span class="menu-label">Sobre</span></a></li>
+                <li><a href="direitos.html" title="Direitos">📜<span class="menu-label">Direitos</span></a></li>
+                <li><a href="estatuto-crianca-adolescente.html" title="ECA">📖<span class="menu-label">ECA</span></a></li>
+                <li><a href="sipia-ct.html" title="Sipia-CT">💻<span class="menu-label">Sipia-CT</span></a></li>
+                <li><a href="faq.html" title="FAQ">❓<span class="menu-label">FAQ</span></a></li>
+                <li><a href="denuncias.html" title="Denúncias">🚨<span class="menu-label">Denúncias</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="descricao card">
+            <h1>O que é o Conselho Tutelar?</h1>
+            <p>O Conselho Tutelar é um órgão essencial e autônomo, estabelecido pelo Estatuto da Criança e do Adolescente
+                (ECA),
+                com a responsabilidade de zelar pela proteção integral e pela garantia dos direitos de crianças e
+                adolescentes em nossa sociedade.</p>
+            <p>Sua atuação é fundamental em casos de negligência, abusos, exploração e outras situações de
+                vulnerabilidade,
+                trabalhando em conjunto com a comunidade e as instituições governamentais para assegurar o bem-estar dos
+                jovens.</p>
+            <p>Se você necessita de auxílio ou deseja reportar alguma situação de risco, não hesite em contatar o
+                Conselho
+                Tutelar mais próximo. Sua participação é crucial para a proteção de nossas crianças e adolescentes.</p>
+        </section>
+        <section class="acao card">
+            <h2>Como funciona?</h2>
+            <p>Os conselheiros tutelares, eleitos pela comunidade, têm a importante missão de fiscalizar e assegurar que os
+                direitos das crianças e adolescentes sejam sempre respeitados e garantidos.</p>
+            <p>Para cumprir essa missão, eles podem:</p>
+            <ul>
+                <li>Receber e apurar denúncias de violência, negligência ou qualquer forma de violação dos direitos
+                    infantis.
+                </li>
+                <li>Encaminhar os casos para a Justiça e para os serviços de assistência social, buscando soluções adequadas
+                    para
+                    cada situação.</li>
+                <li>Garantir que todas as crianças e adolescentes tenham acesso à educação, serviços de saúde, segurança e
+                    convívio familiar saudável.</li>
+            </ul>
+            <p><strong>O Conselho Tutelar está sempre à disposição para amparar e proteger aqueles que mais
+                    necessitam.</strong>
+            </p>
+        </section>
+        <aside class="banner-lateral card">
+            <h2>Encontre um Conselho Tutelar</h2>
+            <img src="https://institutoc.org.br/wp-content/uploads/2023/09/Design-sem-nome-2-1170x725.jpg"
+                alt="Imagem ilustrativa de crianças sendo protegidas">
+            <p>Localize o Conselho Tutelar mais próximo de você e colabore na proteção dos direitos de nossas crianças e
+                adolescentes.</p>
+            <a
+                href="https://www.blumenau.sc.gov.br/secretarias/secretaria-de-desenvolvimento-social/semudes/disque-100-e-conselhos-tutelares-saao-canais-de-denaoncia-para-situaacaoes-de-violaancia-infantil29">Saiba
+                onde encontrar e como denunciar</a>
+        </aside>
+    </main>
+
+    <div class="floating-button">
+        <button onclick="showInfo()" class="info-button">❓</button>
+        <button onclick="scrollToTop()" class="top-button">⬆️</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Destiny Services BR - Todos os direitos reservados</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu ul');
+            menu.classList.toggle('active');
+        }
+
+        function showInfo() {
+            alert('Este site foi criado como parte do projeto de extensão da Uniasselvi pelos alunos Ivan, GP e William.');
+        }
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+
+</html>

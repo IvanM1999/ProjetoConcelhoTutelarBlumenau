@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conselho Tutelar - Protegendo Direitos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="banner-topo">Conselho Tutelar - Protegendo Direitos</div>
+        <nav class="menu">
+            <button class="menu-burger" onclick="toggleMenu()" aria-label="Abrir menu">
+                <svg viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><rect y="6" width="32" height="4" rx="2" fill="currentColor"/><rect y="14" width="32" height="4" rx="2" fill="currentColor"/><rect y="22" width="32" height="4" rx="2" fill="currentColor"/></svg>
+            </button>
+            <ul>
+                <li><a href="index.html" title="Início">🏠<span class="menu-label">Início</span></a></li>
+                <li><a href="sobre-CT.html" title="Sobre">👥<span class="menu-label">Sobre</span></a></li>
+                <li><a href="direitos.html" title="Direitos">📜<span class="menu-label">Direitos</span></a></li>
+                <li><a href="estatuto-crianca-adolescente.html" title="ECA">📖<span class="menu-label">ECA</span></a></li>
+                <li><a href="sipia-ct.html" title="Sipia-CT">💻<span class="menu-label">Sipia-CT</span></a></li>
+                <li><a href="faq.html" title="FAQ">❓<span class="menu-label">FAQ</span></a></li>
+                <li><a href="denuncias.html" title="Denúncias">🚨<span class="menu-label">Denúncias</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="introducao card">
+            <h1>Bem-vindo ao Portal do Conselho Tutelar</h1>
+            <p>Saiba mais sobre os direitos das crianças e adolescentes garantidos pelo Estatuto da Criança e do Adolescente (ECA).</p>
+            <p>Conheça como funciona o Conselho Tutelar e como ele protege os direitos dos jovens.</p>
+            <a href="direitos.html" class="botao-info">Conheça Seus Direitos</a>
+        </section>
+        <aside class="banner-lateral card">
+            <h2>Campanhas Atuais</h2>
+            <img src="https://www.blumenau.sc.gov.br/view/media/large/34e95c2db208f5335b60333873c5a83e.jpg" alt="Campanha de Proteção Infantil">
+        </aside>
+        <div class="blog-card card">
+            <h3>Benefícios para Famílias</h3>
+            <p>Descubra os benefícios que o governo oferece para apoiar famílias em situação de vulnerabilidade, como o Bolsa Família e o Auxílio Creche.</p>
+            <a href="#beneficios" class="blog-link">Saiba mais</a><br>
+            <a href="https://www.jusbrasil.com.br/artigos/a-importancia-do-eca/2469151541?msockid=229286d1fcd261993aa790d1fdd260a1" target="_blank" rel="noopener" class="blog-link">Leia também: A importância do ECA (Jusbrasil)</a>
+        </div>
+    </main>
+    <div class="floating-button">
+        <button onclick="showInfo()" class="info-button">❓</button>
+        <button onclick="scrollToTop()" class="top-button">⬆️</button>
+    </div>
+    <footer>
+        <p>&copy; 2025 Destiny Services BR - Todos os direitos reservados | v2.0</p>
+    </footer>
+</body>
+</html>
