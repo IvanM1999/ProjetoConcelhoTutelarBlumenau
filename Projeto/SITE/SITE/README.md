@@ -16,4 +16,4 @@ MIT — Uso gratuito, livre para modificação e distribuição, desde que seja 
 
 ---
 
-Desenvolvido por Ivan, William, Gabriel Pessoa e colaboradores do projeto de extensão Uniasselvi. Direitos autorais: Destiny Services BR.
+Desenvolvido por Ivan, para o projeto de extensão Uniasselvi.
